@@ -1,0 +1,82 @@
+/* Fuente y estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #da291c; /* Rojo McDonald's */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Sección principal */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.intro .logo {
+    width: 200px;
+}
+
+.intro .text {
+    max-width: 500px;
+}
+
+.intro h2 {
+    margin-bottom: 10px;
+}
+
+.boton {
+    display: inline-block;
+    background: #da291c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Imagen principal */
+.banner {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Sección inferior */
+.info {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background: #fff5f5;
+    border: 1px solid #da291c;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #da291c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
